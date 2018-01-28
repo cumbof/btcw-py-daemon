@@ -7,7 +7,7 @@ create table found (
     public_key_hex  text,
     wallet_address  text,
     hash160         text,
-    found_timestamp text
+    query_timestamp text
 );
 
 -- 'failed' table
@@ -17,5 +17,5 @@ create table failed (
     public_key_hex  text,
     wallet_address  text,
     hash160         text,
-    failed_timestamp text
+    query_timestamp text
 );
